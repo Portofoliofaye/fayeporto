@@ -1,0 +1,378 @@
+ *{
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+    list-style: none;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Source Serif Pro', serif;
+    
+ } 
+  .navbar{
+    width: 100%;
+    position: fixed;
+    background-color: crimson;
+}
+.navbar .max-width{   
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.navbar .max-width .logo a{   
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500px;
+}
+.navbar .max-width .logo a span{   
+    color: black;
+}
+.menu li{   
+    margin-top: 10px;
+}
+.navbar .menu li{   
+    display: inline-block;
+}
+.navbar .menu li a{   
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 20px;
+    transition: color 3s;
+
+}
+.navbar .menu li a:hover{   
+    color: black;
+}
+/*******************************/
+.home{
+    height: 800px;
+    background: url(../ii.jpg) no-repeat;
+    background-size: 100%;
+    display: flex;
+}
+.home .max-width{
+    color: white;
+    margin: auto 120px;
+}
+.home .max-width .text-1{
+    font-size: 40px;
+    font-weight: 600px;
+}
+.home .max-width .text-2{
+    color: crimson;
+    font-size: 60px;
+    font-weight: 500px;
+}
+.home .max-width .text-3{
+    font-size: 50px;
+    font-weight: 700px;
+}
+.home .max-width .text-3 span{
+    color: crimson;
+}
+.home .max-width .button-one{
+    color: white;
+    background-color: crimson;
+    font-size: 40px;
+    font-weight: 200;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.home .max-width .button-one:hover{
+   background:none;
+   border: 2px solid crimson;
+}
+/************************/
+.propos{
+    padding: 30px 80px;
+}
+.propos .title{
+    font-size: 40px;
+    font-weight: 500px;
+    text-align: center;
+    text-decoration: underline crimson;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+.propos .propos-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.propos .column-left{
+    width: 45%;  
+}
+.propos .column-left img{
+    height: auto;
+    width: 400px;
+    object-fit: cover;
+}
+.propos .column-right{
+    width: 55%;  
+}
+.propos .column-right .text{
+    font-size: 35px;
+    font-weight: 600px;
+}
+.propos .column-right .text span{
+    color: crimson;
+
+}
+.propos.column-right p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.propos .column-right a{
+    color: white;
+    background-color: crimson;
+    font-size: 40px;
+    font-weight: 200;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    display: inline-block;
+    border: 2px solid crimson;
+}
+.propos .column-right a:hover{
+    background: none;
+    color: crimson;
+}
+/************************/
+.about{
+    padding: 30px 80px;
+    background-color: black;
+    height: 700px;
+}
+.about .titre{
+    font-size: 35px;
+    font-weight: 500px;
+    text-align: center;
+    text-decoration: underline crimson;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    color: white;
+}
+.about .max-width{
+    display: flex;
+}.about .texte1{
+   background-color: rgba(37, 43, 49, 0.918);
+   border-radius: 4px;
+   color: white;
+   font-size: 15px;
+   padding: 20px 20px;
+   margin-top: 20px;
+   text-align: justify;
+   margin-right: 5px;
+}
+.about .texte1 center{
+color: crimson;
+font-size: 30px;
+}
+.about .texte2{
+    background-color: rgba(37, 43, 49, 0.918);
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-align: justify;
+    margin-right: 5px;
+}
+.about .texte2 center{
+    color: crimson;
+    font-size: 30px;
+}
+.about .texte3{
+    background-color: rgba(37, 43, 49, 0.918);
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.about .texte3 center{
+    color: crimson;
+    font-size: 30px;
+}
+/************************/
+.team{
+    padding: 30px 80px;
+    background-color: white;
+}
+.team .titres{
+    font-size: 35px;
+    font-weight: 500px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    color: black;
+    line-height: 30px;
+}
+.team .titres #hr{
+    height: 2px;
+    width: 4px;
+    padding-left: 15px;
+    display: inline-block;
+}
+.team .titres span{
+    font-size: 20px;
+    font-weight: 500px;
+    text-align: center;
+    font-family: sans-serif;
+    color: crimson;
+}
+.team .max-width{
+    display: flex;
+}
+.team .texte4{
+   background-color: rgba(37, 43, 49, 0.918);
+   border-radius: 4px;
+   color: white;
+   font-size: 15px;
+   padding: 20px 20px;
+   margin-top: 20px;
+   text-align: justify;
+   margin-right: 5px;
+   margin-left: 15%;
+}
+.team .texte4 img{
+    border-radius: 505px;
+    border-color: crimson;
+    border-style: groove;
+    object-fit: cover;
+}
+.team .texte5{
+    background-color: rgba(37, 43, 49, 0.918);
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-align: justify;
+    margin-right: 5px;
+}
+.team .texte5 img{
+    border-radius: 505px;
+    border-color: crimson;
+    border-style: groove;
+    object-fit: cover;
+
+}
+.team .texte6{
+    background-color: rgba(37, 43, 49, 0.918);
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-align: justify;
+    margin-right: 15%;
+}
+.team .texte6 img{
+    border-radius: 505px;
+    border-color: crimson;
+    border-style: groove;
+    object-fit: cover;
+
+}
+/************************/
+.contact{
+    padding: 30px 80px;
+    background-color: white;
+}
+.contact .titr{
+    font-size: 35px;
+    font-weight: 500px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    color: black;
+    line-height: 25px;
+}
+.contact .titr #hr{
+    height: 2px;
+    width: 6px;
+    padding-left: 15px;
+    display: inline-block;
+}
+.contact .titr span{
+    font-size: 20px;
+    font-weight: 500px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    color: crimson;
+}
+.contact .max-width{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .texte7{
+   color: black;
+   font-size: 15px;
+   padding: 20px 20px;
+   margin-top: 20px;
+   text-align: justify;
+   margin-left: 15%;
+   font-family: 'Times New Roman';
+}
+.texte7 .icon{
+    color: crimson;
+    padding-top: 10px;
+    line-height: 40px;
+    font-size: 20px;
+ }
+ .texte7 .icon .ab{
+    color: black;
+    margin-left: 15px;
+ }
+ .texte7 .icon .ad{
+    color: black;
+    margin-left: 15px;
+ }
+ .texte7 .icon .ma{
+    color: black;
+    margin-left: 15px;
+ }
+.contact .texte8{
+    color: black;
+    font-size: 15px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-align: justify;
+    margin-right: 10%;
+}
+.contact .texte8 .fmo{
+    line-height: 5px;
+}
+.contact .texte8 .for{
+   display: inline-flex;
+   justify-content: space-between;
+   
+}
+#mail{
+    margin-left: 90px;
+}
+.mes a{
+    color: white;
+    background-color: crimson;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 5px;
+    padding: 20px 30px;
+    display: inline-block;
+    border: 2px solid crimson;
+    position: relative;
+    top: -30px;
+}
+
+
